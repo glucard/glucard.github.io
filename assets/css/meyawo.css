@@ -12177,7 +12177,11 @@ pre .code {
 }
 
 .about-img-holder .about-img {
-  width: 100%;
+  display: block;
+  position: relative;
+  width: 300px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: Rounds the corners */
   margin-bottom: 15px;
 }
 
